@@ -28,7 +28,7 @@ public class Formatter {
         char section = 'A';
         int currentYear = 2026;
 
-        // Your code here
+        System.out.println("============================\n\tSTUDENT PROFILE\n============================\nName:\t" + firstName + " " + lastName + "\nAge:\t" + age +"\nGPA:\t" + gpa +"\nSection: "+section+"\n============================\nTurns 100 in: "+ ((currentYear-age)+100));
 
     }
 }

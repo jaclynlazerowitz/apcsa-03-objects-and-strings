@@ -13,9 +13,14 @@
 public class MadLibs {
     public static void main(String[] args) {
 
-        // Declare your variables
+       int tries = 10;
+       char me = 'J';
+       double triestwo = 8.8;
+       String one = "Hi, it's ";
+       String two = " sorry I tried ";
+       String three = " times, but it's still not funny.";
 
-        // Build and print the story
+        System.out.println(one + me + two + (tries * triestwo) + three);
 
     }
 }
